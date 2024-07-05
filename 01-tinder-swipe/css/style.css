@@ -42,7 +42,7 @@ section{
 }
 header{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     padding-left: 1rem;
 
     & img{
@@ -129,7 +129,7 @@ footer{
         }
         &.reset{
             transition: transform 0.3s ease;
-            transform: translate(0) !important;
+            transform: translateX(0) !important;
         }
         &.choice{
             border-radius: 8px;
